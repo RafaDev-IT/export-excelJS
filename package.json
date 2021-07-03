@@ -22,6 +22,7 @@
   "homepage": "https://github.com/RafaDev-IT/export-excelJS#readme",
   "dependencies": {
     "exceljs": "^4.2.1",
-    "file-saver": "^2.0.5"
+    "file-saver": "^2.0.5",
+    "typescript": "^4.3.5"
   }
 }
