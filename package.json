@@ -1,0 +1,27 @@
+{
+  "name": "export-exceljs",
+  "version": "1.0.0",
+  "description": "Funcion para exportar data a un excel",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafaDev-IT/export-excelJS.git"
+  },
+  "keywords": [
+    "export",
+    "excel"
+  ],
+  "author": "rafadev-it",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RafaDev-IT/export-excelJS/issues"
+  },
+  "homepage": "https://github.com/RafaDev-IT/export-excelJS#readme",
+  "dependencies": {
+    "exceljs": "^4.2.1",
+    "file-saver": "^2.0.5"
+  }
+}
