@@ -1,11 +1,11 @@
 import ExcelJS from 'exceljs'
 import saveAs from 'file-saver'
 
-// type props<T> = {
-//     titleFields: Array<T>,
-//     data, 
-//     nameDocument
-// }
+interface IProps{
+    titles: Array<number|string>,
+    data: Array<number|string>
+    documentName: string
+}
 /**
  * 
  * @param titles
@@ -16,7 +16,7 @@ import saveAs from 'file-saver'
  * Ejemplo: documentName: 'prueba'
  * @returns 
  */
-const SaveExcel = async ({ titles, data, documentName }) => {
+const SaveExcel = async ({ titles, data, documentName }:IProps) => {
     try {
         const wb = new ExcelJS.Workbook();
         const ws = wb.addWorksheet();
