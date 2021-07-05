@@ -2,7 +2,7 @@
   "name": "exceljs-export",
   "version": "1.0.5",
   "description": "Funcion para exportar data a un excel",
-  "main": "src/index.ts",
+  "main": "src/index.js",
   "scripts": {
     "test": "test"
   },
