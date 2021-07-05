@@ -13,9 +13,7 @@ $ npm install exceljs-export
 
 ## Usage
 
-```
-# returns 'words'
-
+```js
 //sent data from local
 import SaveExcel from 'exceljs-export'
 const titlesProps =['n1', 'n2', 'n3'];
