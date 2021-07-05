@@ -3,7 +3,7 @@ import saveAs from 'file-saver'
 
 interface IProps{
     titles: Array<number|string>,
-    data: Array<number|string>
+    data: Array<Array<number|string>>
     documentName: string
 }
 /**
