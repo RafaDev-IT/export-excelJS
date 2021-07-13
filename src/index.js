@@ -8,7 +8,7 @@ import {saveAs} from 'file-saver'
  * @param data
  * Ejemplo: data: [[1,2,3],[4,5,6]]
  * @param documentName
- * Ejemplo: documentName: 'prueba'
+ * Ejemplo: documentName: 'documento de prueba'
  * @returns 
  */
 const SaveExcel = async ({ titles, data, documentName }) => {
