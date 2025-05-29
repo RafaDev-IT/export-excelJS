@@ -3,6 +3,7 @@
   "version": "1.0.6",
   "description": "Funcion para exportar data a un excel",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
     "test": "test"
   },
